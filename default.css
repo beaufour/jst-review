@@ -1,0 +1,36 @@
+table {
+  border: 1px solid black;
+}
+
+td.filename {
+  font-weight: bold;
+}
+
+td.problem {
+  text-align: center;
+}
+
+td.linenum {
+  text-align: right;
+}
+
+td.line pre {
+  display: inline;
+}
+
+p.url {
+  font-weight: bold;
+}
+
+p.warn {
+  text-align: center;
+  background-color: red;
+}
+
+p.congrats {
+  margin: 30px;
+  border: 1px solid black;
+  padding: 30px;
+  text-align: center;
+  width: 70%;
+}
